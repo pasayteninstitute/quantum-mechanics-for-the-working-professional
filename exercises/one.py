@@ -43,4 +43,11 @@ def plotPMFTheta( th , counts = 50 ):
 # *^*^*^*^*^*^*^*^*^*^*^*^
 # Just a head's up:
 # You'll need to either paste this in a notebook IDE or modify the code to save plots to disk.
+# try the following commands:
 # *^*^*^*^*^*^*^*^*^*^*^*^
+
+for n in [10,50,100]:
+    plotPMF(uniform,n)
+
+for th in [pi/16,pi/8,pi/6,pi/5,pi/3,pi/2.2]:
+    plotPMFTheta(th,50)
